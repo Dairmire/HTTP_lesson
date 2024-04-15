@@ -4,6 +4,10 @@ from io import BytesIO
 import requests
 from PIL import Image
 
+
+kapitan = 'pochka'
+
+
 def calc(a, b, x, y):
     x1 = abs(float(x) - float(a))
     y1 = abs(float(y) - float(b))
